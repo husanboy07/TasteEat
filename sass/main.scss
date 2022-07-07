@@ -1,0 +1,1011 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Poppins:wght@200;600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;500&family=Josefin+Sans:ital@0;1&family=Poppins:wght@200;600&family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: #292E36;
+    height: 370px;
+    button{
+        width: 295px;
+        height: 73px;
+        background: transparent;
+        color: #FFFFFF;
+        position: absolute;
+        left: 3%;
+        top: 15%;
+        border: none;
+        border: 2px solid #E1B168;
+        font-size: 22px;
+        
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s; 
+        transition-duration: 0.3s;
+        cursor: pointer;
+        box-shadow: 4px 4px 8px 0px #E1B168;
+    }
+    button:active{
+        box-shadow: -4px -4px 8px 0px #E1B168;
+    }
+    img{
+        position: absolute;
+        left: 40%;
+        top: 5%;
+    }
+    .Reservation{
+        position: absolute; 
+        background: #E1B168;
+        border: 2px solid #E1B168;
+        left: 75%;
+        color: #292E36;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    hr{
+        position: absolute;
+        top: 40%;
+        width: 1348px;
+        background: transparent;
+    }
+    .nav-link{
+        a{
+            text-decoration: none;
+        }
+
+        .Home{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+            top: 46%;
+            left: 3%;
+        }
+        .Home:hover{
+            color: #E1B168;
+            transition: 0.5s ease-out;
+            transform: scaleX(1.1);
+        }
+        .About{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+            top: 46%;
+            left: 12.3%;
+        }
+        .About:hover{
+            color: #E1B168;
+            transition: 0.5s ease-out;
+            transform: scaleX(1.1);
+        }
+        .Menu{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+            top: 46%;
+            left: 24%;
+        }
+        .Menu:hover{
+            color: #E1B168;
+            transition: 0.5s ease-out;
+            transform: scaleX(1.1);
+        }
+        .Pages{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+            top: 46%;
+            left: 35%;
+        }
+        .Pages:hover{
+            color: #E1B168;
+            transition: 0.5s ease-out;
+            transform: scaleX(1.1);
+        }
+        .Blog{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+            top: 46%;
+            left: 43%;
+        }
+        .Blog:hover{
+            color: #E1B168;
+            transition: 0.5s ease-out;
+            transform: scaleX(1.1);
+        }
+        .Contact{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+            top: 46%;
+            left: 50%;
+        }
+        .Contact:hover{
+            color: #E1B168;
+            transform: scaleX(1.1);
+            transition: 0.5s ease-out;
+        }
+    }   .instagarm{
+            position: absolute;
+            left: 80%;
+            top: 46%;
+        }
+        .instagarm:hover{
+            margin-top: -5px;
+            transition: 0.7s;
+        }
+        .facebook{
+            position: absolute;
+            left: 85%;
+            top: 46%;
+        }
+        .facebook:hover{
+            margin-top: -5px;
+            transition: 0.7s;
+        }
+        .twitter{
+            position: absolute;
+            left: 90%;
+            top: 46%;
+        }
+        .twitter:hover{
+            margin-top: -5px;
+            transition: 0.7s;
+        }
+        .pinterest{
+            position: absolute;
+            left: 95%;
+            top: 46%; 
+        }
+        .pinterest:hover{
+            cursor: pointer;
+            margin-top: -5px;
+            transition: 0.7s;
+        }
+}
+
+.header{
+    background-color: #292E36;
+    height: 730px;
+    img{
+        width: 655px;
+        position: absolute;
+        left: 50%;
+    }
+    h1{
+        font-family: 'Cormorant Infant';
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 110px;
+        left: 3%;
+        position: absolute;
+        top: 80%;
+    }
+    p{
+        font-family: 'Josefin Sans';
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 3%;
+        top: 120%;
+        line-height: 30px;
+    }
+    button{
+        width: 230px;
+        background-color: transparent;
+        height: 73px;
+        border: 2px solid #E1B168;
+        color: #fff;
+        position: absolute;
+        left: 3%;
+        top: 140%;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s; 
+        transition-duration: 0.3s; 
+        cursor: pointer;
+        box-shadow: 4px 4px 8px 0px #E1B168;
+    }
+    button:active{
+        box-shadow: -4px -4px 8px 0px #E1B168;
+    }
+}
+
+.logo__section{
+    .logo_one{
+        width: 400px;
+        position: absolute;
+        left: 3%;
+        top: 175%;
+    }
+    .logo_two{
+        width: 400px;
+        position: absolute;
+        left: 38%;
+        top: 175%;
+    }
+    .logo_three{
+        width: 400px;
+        position: absolute;
+        left: 70%;
+        top: 175%;
+    }
+}
+
+section{
+    background: #FFF8F5;
+    position: absolute;
+    height: 728px;
+    width: 1347px;
+    top: 200%;
+    img{
+        width: 1300px;
+        top: 5%;
+        left: 3%;
+        position: absolute;
+    }
+}
+
+.menu_section{
+    button{
+       text-transform: uppercase;
+       position: absolute; 
+       border-left: none;
+       border-right: none;
+       border-top: 2px solid #E1B168;
+       border-bottom: 2px solid #E1B168;
+       background-color: transparent;
+       padding: 5px;
+       font-family: 'Josefin Sans';
+       letter-spacing: 3px;
+       cursor: pointer;
+       left: 3%;
+       margin-top: 80%;
+    }
+    h3{
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+        position: absolute;
+        left: 3%;
+        margin-top: 83%;
+    }
+    p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        position: absolute;
+        left: 3%;
+        margin-top: 89%;
+    }
+    img{
+        position: absolute;
+        margin-top: 100%;
+        left: 3%;
+    }
+}
+
+.Starters_section{
+    img{
+        position: absolute;
+        margin-top: 83%;
+        left: 50%;
+        width: 650px;
+    }
+}
+
+.Main_section{
+    img{
+        position: absolute;
+        left: 50%;
+        width: 650px;
+        margin-top: 125%;
+    }
+    button{
+        width: 255px;
+        height: 73px;
+        color: #E1B168;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        background: transparent;
+        border: 2px solid #E1B168;
+        margin-top: 150%;
+        left: 3%;
+        position: absolute;
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s; 
+        transition-duration: 0.3s;  
+        cursor: pointer;
+        box-shadow: 4px 4px 8px 0px #E1B168;
+    }
+    button:active{
+        box-shadow: -4px -4px 8px 0px #E1B168;
+    }
+}
+
+.Dessert_section{
+    img{
+        position: absolute;
+        left: 50%;
+        width: 650px;
+        margin-top: 165%;
+    }
+}
+
+.card{
+    background: url(../image/background.png);
+    position: absolute;
+    height: 906px;
+    width: 1349px;
+    margin-top: 200%;
+    button{
+        text-transform: uppercase;
+        position: absolute; 
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid #E1B168;
+        border-bottom: 2px solid #E1B168;
+        background-color: transparent;
+        padding: 5px;
+        font-family: 'Josefin Sans';
+        letter-spacing: 3px;
+        cursor: pointer;
+        left: 3%;
+        margin-top: 10%;
+        color: #FFFFFF;
+    }
+    h1{
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        color: #FFFFFF;
+        margin-top: 15%;
+        position: absolute;
+        left: 3%;
+    }
+    p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 3%;
+        margin-top: 22%;
+    }
+    .cards{
+    img{
+        width: 470px;
+        position: absolute;
+        left: 3%;
+        margin-top: 30%;
+    }
+    .card_one{
+        width: 470px;
+        position: absolute;
+        left: 43%;
+    }
+    .card_two{
+        width: 215px;
+        position: absolute;
+        left: 84%;
+    }
+    .silinder{
+        position: absolute;
+        width: 20px;
+        left: 45%;
+        margin-top: 55%;
+    }
+    .silinder:hover{
+        box-shadow: 3px 4px 19px 2px gray;
+        cursor: pointer;
+        width: 25px;
+        border-radius: 50px;
+    }
+    .slinder{
+        position: absolute;
+        width: 20px;
+        left: 48%;
+        margin-top: 55%;
+        border-radius: 80px;
+    }
+    .slinder:hover{
+        box-shadow: 3px 4px 19px 2px gray;
+        width: 25px;
+        cursor: pointer;
+    }
+    .lamps{
+        width: 1348px;
+        left: 0%;
+        margin-top: 67%;
+    }
+    }
+}
+
+.offers_section{
+    button{
+        text-transform: uppercase;
+        position: absolute; 
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid #E1B168;
+        border-bottom: 2px solid #E1B168;
+        background-color: transparent;
+        padding: 5px;
+        font-family: 'Josefin Sans';
+        letter-spacing: 3px;
+        cursor: pointer;
+        left: 47%;
+        margin-top: 320%;
+        color: #292E36;
+    }
+    h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+        position: absolute;
+        margin-top: 325%;
+        font-family: 'Cormorant Infant';
+        text-align: center;
+        width: 100%;
+    }
+    p{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin-top: 330%;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    img{
+        width: 1270px;
+        left: 3%;
+        position: absolute;
+        margin-top: 338%;
+    }
+}
+
+.popular_section{
+    .menu{
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        border-top-color: #E1B168;
+        border-bottom-color: #E1B168;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans';
+        padding: 5px 5px;
+        position: absolute;
+        top: 930%;
+        left: 48%;
+        cursor: pointer;
+    }
+    h1{
+        font-family: 'Cormorant Infant';
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        position: absolute;
+        top: 945%;
+        text-align: center;
+        width: 100%;
+    }
+    .there{
+        font-family: 'Josefin Sans';
+        text-align: center;
+        top: 955%;
+        width: 100%;
+        position: absolute;
+    }
+    .chicken{
+        position: absolute;
+        top: 970%;
+        left: 13%;
+        hr{
+            margin-top: 20%;
+            position: absolute;
+        }
+        .marojni{
+            position: absolute;
+            font-size: 30px;
+            top: 100%;
+            text-align: left;
+        }
+        .Dish{
+            position: absolute;
+            top: 120%;
+        }
+    }
+    .hod_dog{
+        position: absolute;
+        top: 970%;
+        left: 39%;
+        hr{
+            margin-top: 20%;
+            position: absolute;
+        }
+        .Hotdog{
+            position: absolute;
+            top: 100%;
+            font-size: 30px;
+            text-align: left;
+        }
+        .Dish{
+            position: absolute;
+            top: 120%;
+        }
+    }
+    .fresh{
+        position: absolute;
+        top: 970%;
+        left: 65%; 
+        hr{
+            margin-top: 20%;
+            position: absolute;
+        }
+        .salmon{
+            position: absolute;
+            top: 100%;
+            text-align: left;
+            font-size: 30px;
+        }
+        .Dish{
+            position: absolute;
+            top: 120%;
+        }
+    }
+    .See{
+        border-color: #E1B168;
+        background: transparent;
+        width: 255px;
+        height: 73px;
+        cursor: pointer;
+        position: absolute;
+        top: 1050%;
+        left: 42%;
+        font-family: 'Josefin Sans';
+        color: #E1B168;
+    }
+    .See:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s; 
+        transition-duration: 0.3s; 
+        cursor: pointer;
+        box-shadow: 4px 4px 8px 0px #E1B168;
+    }
+    .See:active{
+        box-shadow: -4px -4px 8px 0px #E1B168;
+    }
+}
+
+.offer_section{
+    background: #292E36;
+    height: 515px;
+    margin-top: 450%;
+    button{
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        border-top-color: #E1B168;
+        border-bottom-color: #E1B168;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans';
+        padding: 5px 5px;
+        left: 5%;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 10%;
+        position: absolute;
+    }
+    h1{
+        font-family: 'Cormorant Infant';
+        font-size: 40px;
+        color: #fff;
+        font-weight: 400;
+        left: 5%;
+        margin-top: 15%;
+        position: absolute;
+    }
+    .offer_p{
+        font-family: 'Josefin Sans';
+        color: #fff;
+        position: absolute;
+        left: 5%;
+        margin-top: 20%;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .calendar{
+        width: 254px;
+        height: 235px;
+        border: 20px solid #323841;
+        position: absolute;
+        left: 50%;
+        margin-top: 10%;
+        img{
+            margin-left: 35%;
+            margin-top: 20%;
+            position: absolute;
+        }
+        h4{
+            font-family: 'Cormorant Infant';
+            color: #fff;
+            font-size: 25px;
+            font-weight: 400;
+            left: 20%;
+            margin-top: 60%;
+            position: absolute;
+        }
+    }
+    .book{
+        width: 254px;
+        height: 235px;
+        border: 20px solid #323841;
+        position: absolute;
+        left: 75%; 
+        margin-top: 10%;
+        img{
+            margin-left: 35%;
+            margin-top: 20%;
+            position: absolute;
+        }
+        h4{
+            font-family: 'Cormorant Infant';
+            color: #fff;
+            font-size: 25px;
+            font-weight: 400;
+            left: 20%;
+            margin-top: 60%;
+            position: absolute;
+        }
+    }
+    
+}
+
+.blog_section{
+    .blog{
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        border-top-color: #E1B168;
+        border-bottom-color: #E1B168;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans';
+        padding: 5px 5px;
+        position: absolute;
+        margin-top: 10%;
+        left: 47%;
+        cursor: pointer;
+    }
+    h1{
+        color: #292E36;
+        font-family: 'Cormorant Infant';
+        text-align: center;
+        margin-top: 15%;
+        position: absolute;
+        width: 100%;
+    }
+    p{
+        text-align: center;
+        font-family: 'Josefin Sans';
+        margin-top: 20%;
+        position: absolute;
+        width: 100%;
+        color: #555;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+    }
+    .left{
+        img{
+            width: 550px;
+            margin-left: 5%;
+            margin-top: 25%;
+        }
+        .View{
+            position: absolute;
+            margin-top: 35%;
+            font-family: 'Josefin Sans';
+            margin-left: -29%;
+            width: 227px;
+            height: 73px;
+            background: #E1B168;
+            border: none;
+        }
+        .View:hover{
+            transform: scale(1.05);
+            transition: 0.3s linear;
+            box-shadow: 4px 4px 8px 0px #E1B168;
+            cursor: pointer;
+        }
+        .View:active{
+            box-shadow: -4px -4px 8px 0px #E1B168;
+        }
+    }
+    .right{
+        img{
+            width: 550px;
+            margin-left: 53%;
+            margin-top: -25%;
+            position: absolute;
+        }
+        .View{
+            position: absolute;
+            margin-top: -14.8%;
+            font-family: 'Josefin Sans';
+            margin-left: 65%;
+            width: 227px;
+            height: 73px;
+            background: #E1B168;
+            border: none;
+        }
+        .View:hover{
+            transform: scale(1.05);
+            transition: 0.3s linear;
+            box-shadow: 4px 4px 8px 0px #E1B168;
+            cursor: pointer;
+        }
+        .View:active{
+            box-shadow: -4px -4px 8px 0px #E1B168;
+        }
+    }
+}
+
+footer{
+    .contact{
+        background: url(../image/bg.png);
+        width: 100%;
+        height: 900px;
+        position: absolute;
+        margin-top: 30%;
+        .emails{
+        width: 920px;
+        height: 697px;
+        background: rgba(41, 46, 54, 0.95);
+        margin-left: 17%;
+        margin-top: 9%;
+        color: #fff;
+          .reservation{
+        text-transform: uppercase;
+        width: 143px;
+        background: transparent;
+        color: #fff;
+        border-left: none;
+        border-right: none;
+        border-color: #E1B168;
+        margin-left: 43%;
+        margin-top: 20%;
+    }
+    ::placeholder{
+        color: #fff;
+    }
+    h1{
+        font-family: 'Cormorant Infant';
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        position: absolute;
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .name{
+        width: 307px;
+        height: 70px;
+        border-color: #fff;
+        background: transparent;
+        font-family: 'Josefin Sans';
+        padding: 10px;
+        border: 1px solid #858585;
+        position: absolute;
+        left: 25%;
+        margin-top: 25%;
+        color: #fff;
+    }
+    .email{
+        width: 307px;
+        height: 70px;
+        border-color: #fff;
+        background: transparent;
+        font-family: 'Josefin Sans';
+        padding: 10px;
+        border: 1px solid #858585;
+        position: absolute;
+        left: 50%;
+        color: #fff;
+        margin-top: 25%;
+    }
+    .persons{
+        width: 198px;
+        height: 70px;
+        border-color: #fff;
+        background: transparent;
+        font-family: 'Josefin Sans';
+        padding: 10px;
+        color: #fff;
+        border: 1px solid #858585;
+        position: absolute;
+        left: 25%;
+        margin-top: 32%;
+    }
+    .time{
+        width: 198px;
+        height: 70px;
+        border-color: #fff;
+        background: transparent;
+        font-family: 'Josefin Sans';
+        padding: 10px;
+        color: #fff;
+        border: 1px solid #858585;
+        position: absolute;
+        left: 42%;
+        margin-top: 32%;
+    }
+    .date{
+        width: 198px;
+        height: 70px;
+        border-color: #fff;
+        background: transparent;
+        font-family: 'Josefin Sans';
+        padding: 10px;
+        border: 1px solid #858585;
+        position: absolute;
+        left: 58%;
+        margin-top: 32%; 
+        color: #fff;
+    }
+    .book{
+        width: 242px;
+        height: 68px;
+        font-family: 'Josefin Sans';
+        position: absolute;
+        left: 42%;
+        margin-top: 40%;
+    }
+    .book:hover{
+        transform: scale(1.05);
+        transition: .7s;
+        cursor: pointer;
+    }
+    .book:active{
+        transform: scale(.9);
+    }
+        }
+    }
+    .contact_two{
+        background: #292E36;
+        height: 655px;
+        margin-top: 96.7%;
+        position: absolute;
+        width: 100%;
+        h5{
+            font-family: 'Josefin Sans';
+            color: #fff;
+            font-weight: 400;
+            margin-top: 15%;
+            left: 5%;
+            position: absolute;
+        }
+        .logo{
+            position: absolute;
+            left: 35%;
+            margin-top: 10%;
+        }
+        .join{
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            margin-top: 27%;
+        }
+        .Contact{
+            border-left: none;
+            border-right: none;
+            border-color: #E1B168;
+            background: transparent;
+            color: #fff;
+            line-height: 21px;
+            width: 94px;
+            font-size: 15px;
+            letter-spacing: 3px;
+            position: absolute;
+            left: 5%;
+            margin-top: 35%;
+        }
+        h6{
+            font-family: 'Josefin Sans';
+            color: #fff;
+            font-family: 400;
+            left: 5%;
+            position: absolute;
+            margin-top: 38%;
+            font-size: 20px;
+        }
+        .number{
+            color: #E1B168;
+            font-family: 'Josefin Sans';
+            position: absolute;
+            left: 5%;
+            margin-top: 40.5%;
+        }
+        .email{
+            color: #E1B168;
+            font-family: 'Josefin Sans';
+            position: absolute;
+            left: 5%;
+            margin-top: 43%;
+        }
+        input{
+            width: 456px;
+            height: 68px;
+            background: transparent;
+            border: 1px solid #858585;
+            padding: 10px;
+            color: #fff;
+            position: absolute;
+            left: 30%;
+            margin-top: 37%;
+        }
+        ::placeholder{
+            color: #fff;
+        }
+        .Subscribe{
+            width: 208px;
+            height: 68px;
+            left: 63.7%;
+            position: absolute;
+            margin-top: 37%;
+        }
+    }
+  
+}
